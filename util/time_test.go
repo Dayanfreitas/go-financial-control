@@ -16,7 +16,7 @@ func TestStringToDate(t *testing.T) {
 		t.Errorf("Hora diferente de 10")
 	}
 
-	if time.Minute() != 11 {
+	if time.Minute() != 10 {
 		t.Errorf("Minutos diferente de 10")
 	}
 }
